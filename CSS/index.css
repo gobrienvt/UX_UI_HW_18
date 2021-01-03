@@ -1,0 +1,173 @@
+header {
+    background-color: #046A38;
+    color: white;
+    margin: auto; 
+    width: 100%;
+    height: 50px;
+    font-family: 'Sriracha', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navtable {
+    display: table;
+    margin: auto;
+    float: right;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navList {
+    display: inline;
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.heroBox {
+    background-color: #CEFFD7;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot {
+    max-width: 300px;
+}
+
+h1 {
+    font-family: 'Sriracha', cursive;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Sriracha', cursive;
+    font-size: 24px;
+}
+
+p { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.button {
+    display: block;
+    background-color: #046A38;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 160px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skillsBigdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#skills1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+#skills2 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+#skills3 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.skillsImg {
+    max-height: 100px;
+}
+
+.work {
+    text-align: center;
+    background-color: #CEFFD7;
+}
+
+.workBigdiv {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.workLildiv {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textDiv {
+    text-align: left;
+}
+
+footer {
+    background-color: #046A38;
+    color: white; 
+    font-family: 'Roboto', sans-serif;   
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footerClass {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .skillsBigdiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .workBigdiv {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .workLildiv {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+ 
+    }
+}
